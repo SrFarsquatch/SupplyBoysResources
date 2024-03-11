@@ -2,5 +2,6 @@
   "pack": {
     "pack_format": 26,
     "description": "§c§l"
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 30}
   }
 }
