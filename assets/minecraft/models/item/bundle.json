@@ -5,8 +5,8 @@
     },
     "overrides": [
         { "predicate": { "filled": 0.0000001, "custom_model_data": 0 }, "model": "item/bundle_filled" },
-		{ "predicate": { "filled": 0.0, "custom_model_data": 1 }, "model": "custom:item/bundle/messengerbag_empty" },
-		{ "predicate": { "filled": 0.0000001, "custom_model_data": 1 }, "model": "custom:item/bundle/messengerbag_empty" }
+		{ "predicate": { "filled": 0.0, "custom_model_data": 1 }, "model": "custom:item/bundle/binder_empty" },
+		{ "predicate": { "filled": 0.0000001, "custom_model_data": 1 }, "model": "custom:item/bundle/binder_full" }
 		
     ]
 }
