@@ -3,8 +3,8 @@
 	"texture_size": [64, 64],
 	"parent": "minecraft:item/carved_pumpkin",
 	"textures": {
-		"2": "cowboyhat",
-		"particle": "cowboyhat"
+		"2": "custom:item/cowboyhat",
+		"particle": "custom:item/cowboyhat"
 	},
 	"elements": [
 		{
