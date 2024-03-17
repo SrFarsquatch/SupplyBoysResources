@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "custom:item/cowboyhat",
-		"particle": "cuustom:item/cowboyhat"
+		"particle": "custom:item/cowboyhat"
 	},
 	"elements": [
 		{
