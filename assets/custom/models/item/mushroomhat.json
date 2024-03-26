@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"5": "custom:item/mushroom_hat",
-		"particle": "custom:item/mushroom_hat"
+		"5": "custom:item/mushroomhat",
+		"particle": "custom:item/mushroomhat"
 	},
 	"elements": [
 		{
