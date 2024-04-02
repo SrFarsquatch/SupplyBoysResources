@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"2": "hardhat",
+		"2": "custom:item/hardhat",
 		"particle": "custom:item/hardhat"
 	},
 	"elements": [
