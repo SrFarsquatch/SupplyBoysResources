@@ -3,7 +3,8 @@
   "overrides": [
 	{ "predicate": {"custom_model_data": 1}, "model": "custom:item/cowboyhat"},
 	  { "predicate": {"custom_model_data": 2}, "model": "custom:item/mushroomhat"},
-	  { "predicate": {"custom_model_data": 3}, "model": "custom:item/hardhat"}
+	  { "predicate": {"custom_model_data": 3}, "model": "custom:item/hardhat"},
+	  { "predicate": {"custom_model_data": 4}, "model": "custom:item/starplatinum"}
 	
   ]
 }
