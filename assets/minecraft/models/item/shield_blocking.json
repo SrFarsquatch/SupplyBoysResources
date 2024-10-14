@@ -35,10 +35,9 @@
     
     [
         
-	{
-            "predicate": {
-                "custom_model_data": 1}, "model": "custom:item/royal_shield_blocking"
-     }
+           { "predicate": {"blocking": 2 }, "model": "item/royal_shield_blocking" }
+        
+	
 	
     ]
 }
