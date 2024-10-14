@@ -50,7 +50,10 @@
             "model": "item/shield_blocking"
         },
 	{
-            "predicate": {
+            "predicate":{
+                "blocking": 2
+            }, 
+		{
                 "custom_model_data": 1}, "model": "custom:item/royal_shield"
         }
 	
