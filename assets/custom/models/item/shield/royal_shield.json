@@ -503,7 +503,7 @@
  "predicate": {
  "blocking": 1
  },
- "model": "custom:item/shield/royal_shield_blocking"
+ "model": "custom/models/item/shield/royal_shield_blocking"
  }
  
  ]
