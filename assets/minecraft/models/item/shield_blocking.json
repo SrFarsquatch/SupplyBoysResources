@@ -30,14 +30,5 @@
             "translation": [ 2, 3, 0 ],
             "scale": [ 0.65, 0.65, 0.65 ]
         }
-    },
-    "overrides":
-    
-    [
-        
-           { "predicate": {"blocking": 2 }, "model": "item/royal_shield_blocking" }
-        
-	
-	
-    ]
+    }
 }
