@@ -48,7 +48,7 @@
             },
             "model": "item/shield_blocking"
         }, {
-             "predicate": {"custom_model_data": 100}, "model": "custom:item/shield/royal_shield"
+             "predicate": {"custom_model_data": 50}, "model": "custom:item/shield/royal_shield"
         } 
         
      ]
