@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/shield",
+	"parent": "models/item/shield",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "custom:item/front_royal_shield",
-		"2": "custom:item/back_wood_shield",
-		"3": "custom:item/goldrelief"
+		"1": "front_royal_shield",
+		"2": "back_wood_shield",
+		"3": "goldrelief"
 	},
 	"elements": [
 		{
@@ -497,14 +497,5 @@
 		"fixed": {
 			"translation": [0, -6, -2]
 		}
-	},
- "overrides": [
- {
- "predicate": {
- "blocking": 1
- },
- "model": "custom/models/item/shield/royal_shield_blocking"
- }
- 
- ]
+	}
 }
