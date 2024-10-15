@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "minecraft/models/item/shield",
+	"parent": "minecraft:item/shield",
 	"ambientocclusion": false,
 	"textures": {
 		"1": "custom:item/front_royal_shield",
