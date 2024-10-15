@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "models/item/shield",
+	"parent": "custom:models/item/shield",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "front_royal_shield",
-		"2": "back_wood_shield",
-		"3": "goldrelief"
+		"1": "custom:items/front_royal_shield",
+		"2": "custom:items/back_wood_shield",
+		"3": "custom:items/goldrelief"
 	},
 	"elements": [
 		{
