@@ -3,9 +3,9 @@
 	"parent": "models/item/shield",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "custom:item/front_royal_shield",
-		"2": "custom:item/back_wood_shield",
-		"3": "custom:item/goldrelief"
+		"1": "front_royal_shield",
+		"2": "back_wood_shield",
+		"3": "goldrelief"
 	},
 	"elements": [
 		{
@@ -487,8 +487,8 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [0, -180, 0],
-			"translation": [0, -4.75, 0],
+			"rotation": [-17, -148, -8],
+			"translation": [0, -4, 0],
 			"scale": [0.7, 0.7, 0.7]
 		},
 		"head": {
