@@ -498,8 +498,13 @@
 			"translation": [0, -6, -2]
 		}
 	},
-	"overrides":
-	[ 
-		{ "blocking: 1}, "model": "custom:item/shield/royal_shield_blocking"}
-	]
+ "overrides": [
+ {
+ "predicate": {
+ "blocking": 1
+ },
+ "model": "custom:item/shield/royal_shield_blocking"
+ }
+ 
+ ]
 }
