@@ -34,7 +34,7 @@
     "overrides":
     [
         {
-             "predicate": {"custom_model_data": 2}, "model": "custom:item/royal_shield_blocking"
+             "predicate": {"custom_model_data": 2}, "model": "custom/model/item/royal_shield_blocking"
         }
     ]
 }
