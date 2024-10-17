@@ -497,5 +497,14 @@
 		"fixed": {
 			"translation": [0, -6, -2]
 		}
-	}
+	},
+	"overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "custom/models/item/shield/shield_blocking"
+        }
+        
+     ]
 }
