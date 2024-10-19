@@ -41,11 +41,18 @@
             "scale":[ 0.25, 0.25, 0.25]
         }
     },
-    "overrides": [
-        { "predicate": {"custom_model_data":100}, "model":"custom/models/item/shield/royal_shield"},
-        { "predicate": { "blocking": 1 }, "model": "item:shield_blocking" }
-	    
-		
-       
-     ]
+    "overrides": 
+    [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "item/shield_blocking"
+        },
+	{
+            "predicate": {
+                "custom_model_data": 1}, "model": "custom:item/royal_shield"
+        }
+	
+    ]
 }
