@@ -8,9 +8,7 @@
 	"overrides": [
 		{"predicate": {"custom_model_data": 1}, "model": "custom/models/item/shield/royal_shield"},
 		{"predicate": {"blocking": 1}, "model": "item/shield_blocking"},
-		
-		{"model": "custom/models/item/shield/royal_shield", "predicate": {"blocking": 1}}
-	],
+		],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 90, 0],
