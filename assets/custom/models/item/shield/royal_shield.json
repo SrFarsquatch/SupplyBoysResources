@@ -463,7 +463,11 @@
 		}
 	],
 	"gui_light": "front",
-	
+	"overrides": [
+		{"model": "custom/model/item/shield/royal_shield_blocking", "predicate": {"damaged": 1, "custom_model_data": 1}},
+		{"model": "", "predicate": {"custom_model_data": 0}},
+		{"model": "", "predicate": {"custom_model_data": 0}}
+	],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 0],
@@ -499,9 +503,4 @@
 			"translation": [0, -6, -2]
 		}
 	}
-	"overrides": [
-        [
- 	{ "predicate": { "blocking": 1 }, "model": "custom/models/item/shield/royal_shield_blocking" }
-        ]
-     ]
 }
