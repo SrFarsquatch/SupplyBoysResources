@@ -33,17 +33,33 @@
         "fixed": {
             "rotation": [ 0, 180, 0 ],
             "translation": [ -4.5, 4.5, -5],
-            "scale":[ 0.55, 0.55, 0.55]
+            "scale":[ 0.55, 0.55, 0.55 ]
         },
         "ground": {
             "rotation": [ 0, 0, 0 ],
-            "translation": [ 2, 4, 2],
-            "scale":[ 0.25, 0.25, 0.25]
+            "translation": [ 2, 4, 2 ],
+            "scale":[ 0.25, 0.25, 0.25 ]
         }
     },
     "overrides": [
-         { "predicate": {"custom_model_data": 10}, "model": "custom/models/item/shield/royal_shield"},
-        {"predicate": { "blocking": 1 }, "model": "item/shield_blocking"}
-       
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "item/shield_blocking"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "custom/models/item/shield/royal_shield"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1,
+                "blocking": 1
+            },
+            "model": "custom/models/item/shield/royal_shield_blocking"
+        }
     ]
 }
