@@ -7,7 +7,8 @@
 	"gui_light": "front",
 	"overrides": [
 		{"predicate": {"blocking": 1}, "model": "item/shield_blocking"},
-		{"model": "custom/models/item/shield/royal_shield", "predicate": {"custom_model_data": 1}}
+		{"predicate": {"custom_model_data": 1}, "model": "custom/models/item/shield/royal_shield"},
+		{"model": "custom/models/item/shield/royal_shield_blocking", "predicate": {"blocking": 1}}
 	],
 	"display": {
 		"thirdperson_righthand": {
