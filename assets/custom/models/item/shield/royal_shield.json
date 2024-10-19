@@ -501,7 +501,7 @@
 	}
 	"overrides": [
         [
- 	{ "predicate": { "blocking": 1 }, "model": "custom/model/item/shield/royal_shield_blocking" }
+ 	{ "predicate": { "blocking": 1 }, "model": "custom/models/item/shield/royal_shield_blocking" }
         ]
      ]
 }
