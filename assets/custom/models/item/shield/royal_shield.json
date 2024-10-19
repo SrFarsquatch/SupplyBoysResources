@@ -464,9 +464,8 @@
 	],
 	"gui_light": "front",
 	"overrides": [
-		{"model": "custom/model/item/shield/royal_shield_blocking", "predicate": {"damaged": 1, "custom_model_data": 1}},
-		{"model": "", "predicate": {"custom_model_data": 0}},
-		{"model": "", "predicate": {"custom_model_data": 0}}
+		{"model": "custom/model/item/shield/royal_shield_blocking", "predicate": {"blocking": 1, "custom_model_data": 1}},
+		
 	],
 	"display": {
 		"thirdperson_righthand": {
