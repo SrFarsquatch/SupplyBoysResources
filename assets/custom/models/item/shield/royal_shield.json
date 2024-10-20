@@ -3,9 +3,9 @@
 	"parent": "minecraft:models/item/shield",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "custom:item/front_royal_shield",
-		"2": "custom:item/back_wood_shield",
-		"3": "custom:item/goldrelief"
+		"1": "custom:front_royal_shield",
+		"2": "custom:back_wood_shield",
+		"3": "custom:goldrelief"
 	},
 	"elements": [
 		{
@@ -462,7 +462,6 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 0],
@@ -483,19 +482,21 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"ground": {
-			"translation": [0, 2, 0],
-			"scale": [0.5, 0.5, 0.5]
+			"translation": [0, 2, 0]
 		},
 		"gui": {
-			"rotation": [0, -180, 0],
-			"translation": [0, -4.75, 0],
-			"scale": [0.7, 0.7, 0.7]
+			"rotation": [0, -157, -27],
+			"translation": [2, -4.75, 0],
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"head": {
-			"translation": [0, 6, -7]
+			"rotation": [0, -180, -21],
+			"translation": [2.25, -20, 7],
+			"scale": [1.16, 1.16, 1.16]
 		},
 		"fixed": {
-			"translation": [0, -6, -2]
+			"translation": [0, -11.25, -2],
+			"scale": [1.76, 1.76, 1.76]
 		}
 	}
 }
