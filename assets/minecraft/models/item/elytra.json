@@ -9,6 +9,11 @@
                 "broken": 1
             },
             "model": "item/broken_elytra"
-        }
+        },
+        "overrides": [
+	{ "predicate": {"custom_model_data": 1}, "model": "custom:item/cowboyhat"}
+	  
+	
+  ]
     ]
 }
