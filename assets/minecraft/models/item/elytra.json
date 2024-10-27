@@ -102,5 +102,10 @@
 			"translation": [-1.25, -16.5, -4.25],
 			"scale": [2, 2, 2]
 		}
-	}
+	},
+	"overrides": [
+	{ "predicate": {"custom_model_data": 1}, "model": "custom:item/cowboyhat"}
+	  
+	
+  ]
 }
