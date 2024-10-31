@@ -1,6 +1,21 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/stick"
+    "layer0": "minecraft:item/stick",
+    overrides": [
+    {
+        "predicate": { "custom_model_data": 1 },
+        "model": "custom:models/item/hardhat",
+        "glider": {},
+        "equippable": {
+            "slot": "chest",
+            "equip_sound": "item.armor.equip_chain",
+            "allowed_entities": ["minecraft:player"],
+            "dispensable": true,
+            "swappable": true,
+            "damage_on_hurt": true
+        }
+    }
+              ]
   }
 }
