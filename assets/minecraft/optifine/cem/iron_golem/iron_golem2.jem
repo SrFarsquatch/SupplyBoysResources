@@ -1,7 +1,7 @@
 {
 	"credit": "Made by TSM",
 	"textureSize": [128, 128],
-	"texture": "deoxys.png",
+	"texture": "minecraft/optifine/random/entity/iron_golem/iron_golem2.png",
 	"models": [
 		{
 			"part": "model",
