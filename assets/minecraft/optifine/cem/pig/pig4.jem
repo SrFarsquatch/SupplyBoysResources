@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 32],
-	"texture": "pig3.png",
+	"texture": "pig4.png",
 	"models": [
 		{
 			"part": "body",

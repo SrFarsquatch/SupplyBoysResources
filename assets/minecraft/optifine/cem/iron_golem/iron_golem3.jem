@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [128, 128],
-	"texture": "iron_golem2.png",
+	"texture": "iron_golem3.png",
 	"models": [
 		{
 			"part": "body",
