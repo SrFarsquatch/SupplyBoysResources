@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/potted_azure_bluet"
+			},
+			{
+			"model": "minecraft:block/potted_azure_bluet/potted_azure_bluet_22.5"
+			},
+			{
+			"model": "minecraft:block/potted_azure_bluet/potted_azure_bluet_-22.5"
+			},
+			{
+			"model": "minecraft:block/potted_azure_bluet/potted_azure_bluet_45"
+			}
+		]
+	}
+}

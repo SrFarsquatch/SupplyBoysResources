@@ -1,0 +1,30 @@
+{
+        "initializer":{
+          "lifetime": "240",
+          "alpha": "0",
+          "size": "10",
+          "hitbox_size": 5
+        },
+        "ticker": {
+          "custom": "(PLAYER_X - POS_X)^2 + (PLAYER_Z - POS_Z)^2",
+          "alpha": "(CUSTOM <= (20*20))*((20 * 20) - CUSTOM) / ((20 * 20) - (1 * 1))*(0.15 + (0.015*sin((0.35 * AGE))))*sin((0.0125 * AGE))",
+          "remove_condition": "max(0, min(((1 - ((abs(POS_X - PLAYER_X) + abs(POS_Z - PLAYER_Z)) / 25)^1)), ((1 - ((abs(POS_Y - PLAYER_Y)) / 20)^1)))) == 0"
+        },
+        "liquid_affinity": "non_liquids",
+        "has_physics": true,
+        "rotation_mode": "look_up",
+        "exclusion_radius": 6,
+        "lit": true,
+        "light_level": 5,
+        "render_type": "additive_translucent",
+        "offset": [0, -0.25, 0],
+        "particle_emitters": [
+          {
+       "particle": "davidparticles:underwater_lightrays",
+       "chance": "(AGE == 1) + (AGE == 120) + (AGE == 240) + (AGE == 360)- (PLAYER_Y <= 47)",
+       "x": "gaussian()*0.5", 
+       "z": "gaussian()*0.5",
+       "y": "(pi + sin((DAY_TIME / 12000 * (2 *pi)))) - 3*(DAY_TIME > 13000)*(DAY_TIME < 23500) - 0.25"
+     }
+     ]
+}

@@ -1,0 +1,127 @@
+{
+  "variants": {
+    "age=0": [
+	{
+      "model": "minecraft:block/carrots_stage0",
+        "weight": 85
+    	},
+	{
+      "model": "minecraft:block/carrots_stage0_2",
+        "weight": 5
+    	},
+	{
+        "model": "minecraft:block/carrots_stage0_3",
+        "weight": 10
+      }
+
+],
+    "age=1":[
+	{
+      "model": "minecraft:block/carrots_stage0",
+        "weight": 85
+   	},
+	{
+      "model": "minecraft:block/carrots_stage0_2",
+        "weight": 5
+   	},
+	{
+        "model": "minecraft:block/carrots_stage0_3",
+        "weight": 10
+      }
+
+
+],
+    "age=2": [
+	{
+      "model": "minecraft:block/carrots_stage1",
+        "weight": 85
+    	},
+	{
+      "model": "minecraft:block/carrots_stage1_2",
+        "weight": 5
+   	},
+	{
+        "model": "minecraft:block/carrots_stage1_3",
+        "weight": 10
+      }
+
+
+],
+    "age=3": [
+	{
+      "model": "minecraft:block/carrots_stage1",
+        "weight": 85
+	},
+	{
+      "model": "minecraft:block/carrots_stage1_2",
+        "weight": 5
+	},
+	{
+        "model": "minecraft:block/carrots_stage1_3",
+        "weight": 10
+      }
+
+],
+    "age=4": [
+	{
+      "model": "minecraft:block/carrots_stage2",
+        "weight": 90
+	},
+	{
+      "model": "minecraft:block/carrots_stage2_2",
+        "weight": 3
+	},
+	{
+        "model": "minecraft:block/carrots_stage2_3",
+        "weight": 7
+      }
+
+],
+    "age=5": [
+	{
+      "model": "minecraft:block/carrots_stage2",
+        "weight": 90
+	},
+	{
+      "model": "minecraft:block/carrots_stage2_2",
+        "weight": 3
+	},
+	{
+        "model": "minecraft:block/carrots_stage2_3",
+        "weight": 7
+      }
+
+],
+    "age=6": [
+	{
+      "model": "minecraft:block/carrots_stage3",
+        "weight": 90
+    	},
+	{
+      "model": "minecraft:block/carrots_stage3_2",
+        "weight": 3
+	},
+	{
+        "model": "minecraft:block/carrots_stage3_3",
+        "weight": 7
+      }
+
+
+],
+    "age=7": [
+      {
+        "model": "minecraft:block/carrots_stage3",
+        "weight": 90
+      },
+      {
+        "model": "minecraft:block/carrots_stage3_2",
+        "weight": 3
+      },
+	{
+        "model": "minecraft:block/carrots_stage3_3",
+        "weight": 7
+      }
+
+    ]
+  }
+}

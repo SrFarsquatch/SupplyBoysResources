@@ -1,0 +1,28 @@
+{
+  "initializer":{
+    "lifetime": "240",
+    "size": "5.5",
+    "alpha": "0",
+    "red": "1 - 0.35*(DAY_TIME > 13000)*(DAY_TIME < 23500)",
+    "green": "1 - 0.05*(DAY_TIME > 13000)*(DAY_TIME <= 23999) - 0.15*(DAY_TIME >= 0)*(DAY_TIME <= 12999)",
+    "blue": "1 - 0.35*(DAY_TIME >= 0)*(DAY_TIME <= 12999)"
+  },
+      "ticker": {
+        "custom": "((PLAYER_X - POS_X)^2 + (PLAYER_Z - POS_Z)^2)",
+        "alpha": "max(0, tanh(((abs(POS_X - PLAYER_X) + abs(POS_Z - PLAYER_Z)) / 5)))*(((CUSTOM <= (17.5*17.5))*((17.5 * 17.5) - CUSTOM) / ((17.5 * 17.5) - (1 * 1))*(0.225 + (0.025*sin((0.325 * AGE))))*sin((0.0125 * AGE))))",
+        "dx": "cos((DAY_TIME / 12000 * pi))*0.001",
+        "dy": "sin((DAY_TIME / 12000 * pi))*0.0025",
+        "remove_condition": "sqrt(DISTANCE_SQUARED) > 20"
+        },
+  "render_type": "additive_translucent",
+  "liquid_affinity": "any",
+  "random_sprite": true,
+  "exclusion_radius": 1,
+  "has_physics": false,
+  "kill_on_contact": false,
+  "kill_when_still": false,
+  "offset": [0, -0.5, 0],
+  "lit": true,
+  "light_level": 5,
+  "rotation_mode": "movement_aligned"
+}

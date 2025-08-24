@@ -1,0 +1,401 @@
+{
+	"model": {
+		"type": "select",
+		"component": "custom_name",
+		"cases": [
+			{
+				"when": "Golden Apple Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/golden_apple_trident_throwing",
+						"base": "item/trident/golden_apple_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/golden_apple_trident",
+						"base": "item/trident/golden_apple_trident"
+					}
+				}
+			},
+			{
+				"when": "Crucuble Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/crucuble_trident_throwing",
+						"base": "item/trident/crucuble_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/crucuble_trident",
+						"base": "item/trident/crucuble_trident"
+					}
+				}
+			},
+			{
+				"when": "Ellegaard's Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/ellegaard_trident_throwing",
+						"base": "item/trident/ellegaard_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/ellegaard_trident",
+						"base": "item/trident/ellegaard_trident"
+					}
+				}
+			},
+			{
+				"when": "Titan's Shroud Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/titan_shroud_trident_throwing",
+						"base": "item/trident/titan_shroud_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/titan_shroud_trident",
+						"base": "item/trident/titan_shroud_trident"
+					}
+				}
+			},
+			{
+				"when": "Cloaked Skull Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/cloaked_skull_trident_throwing",
+						"base": "item/trident/cloaked_skull_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/cloaked_skull_trident",
+						"base": "item/trident/cloaked_skull_trident"
+					}
+				}
+			},
+			{
+				"when": "Spore Javelin",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/spore_javelin_throwing",
+						"base": "item/trident/spore_javelin_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/spore_javelin",
+						"base": "item/trident/spore_javelin"
+					}
+				}
+			},
+			{
+				"when": "Light Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/light_trident_throwing",
+						"base": "item/trident/light_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/light_trident",
+						"base": "item/trident/light_trident"
+					}
+				}
+			},
+			{
+				"when": "Kemetian Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/kemetian_trident_throwing",
+						"base": "item/trident/kemetian_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/kemetian_trident",
+						"base": "item/trident/kemetian_trident"
+					}
+				}
+			},
+			{
+				"when": "Fantasy Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/fantasy_trident_throwing",
+						"base": "item/trident/fantasy_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/fantasy_trident",
+						"base": "item/trident/fantasy_trident"
+					}
+				}
+			},
+			{
+				"when": "Sinitic Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/sinitic_trident_throwing",
+						"base": "item/trident/sinitic_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/sinitic_trident",
+						"base": "item/trident/sinitic_trident"
+					}
+				}
+			},
+			{
+				"when": "Hellenic Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/hellenic_trident_throwing",
+						"base": "item/trident/hellenic_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/hellenic_trident",
+						"base": "item/trident/hellenic_trident"
+					}
+				}
+			},
+			{
+				"when": "Candy Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/candy_trident_throwing",
+						"base": "item/trident/candy_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/candy_trident",
+						"base": "item/trident/candy_trident"
+					}
+				}
+			},
+			{
+				"when": "Norroen Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/norroen_trident_throwing",
+						"base": "item/trident/norroen_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/norroen_trident",
+						"base": "item/trident/norroen_trident"
+					}
+				}
+			},
+			{
+				"when": "Halloween Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/halloween_trident_throwing",
+						"base": "item/trident/halloween_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/halloween_trident",
+						"base": "item/trident/halloween_trident"
+					}
+				}
+			},
+			{
+				"when": "Pattern Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/pattern_trident_throwing",
+						"base": "item/trident/pattern_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/pattern_trident",
+						"base": "item/trident/pattern_trident"
+					}
+				}
+			},
+			{
+				"when": "Festive Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/festive_trident_throwing",
+						"base": "item/trident/festive_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/festive_trident",
+						"base": "item/trident/festive_trident"
+					}
+				}
+			},
+			{
+				"when": "Jake The Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/jake_the_trident_throwing",
+						"base": "item/trident/jake_the_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/jake_the_trident",
+						"base": "item/trident/jake_the_trident"
+					}
+				}
+			},
+			{
+				"when": "Super Cute Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/super_cute_trident_throwing",
+						"base": "item/trident/super_cute_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/super_cute_trident",
+						"base": "item/trident/super_cute_trident"
+					}
+				}
+			},
+			{
+				"when": "Trident Before Christmas",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/trident_before_christmas_throwing",
+						"base": "item/trident/trident_before_christmas_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/trident_before_christmas",
+						"base": "item/trident/trident_before_christmas"
+					}
+				}
+			},
+			{
+				"when": "Royal Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/royal_trident_throwing",
+						"base": "item/trident/royal_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/royal_trident",
+						"base": "item/trident/royal_trident"
+					}
+				}
+			},
+			{
+				"when": "Ancient Trident",
+				"model": {
+					"type": "condition",
+					"property": "using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/trident/ancient_trident_throwing",
+						"base": "item/trident/ancient_trident_throwing"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/trident/ancient_trident",
+						"base": "item/trident/ancient_trident"
+					}
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:select",
+			"property": "minecraft:display_context",
+			"cases": [
+				{
+					"when": [
+						"gui",
+						"ground",
+						"fixed"
+					],
+					"model": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/trident"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:condition",
+				"property": "minecraft:using_item",
+				"on_true": {
+					"type": "minecraft:special",
+					"model": {
+						"type": "minecraft:trident"
+					},
+					"base": "minecraft:item/trident_throwing"
+				},
+				"on_false": {
+					"type": "minecraft:special",
+					"model": {
+						"type": "minecraft:trident"
+					},
+					"base": "minecraft:item/trident_in_hand"
+				}
+			}
+		},
+		"property": "component"
+	}
+}

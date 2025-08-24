@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/potted_allium"
+			},
+			{
+			"model": "minecraft:block/potted_allium/potted_allium_22.5"
+			},
+			{
+			"model": "minecraft:block/potted_allium/potted_allium_-22.5"
+			},
+			{
+			"model": "minecraft:block/potted_allium/potted_allium_45"
+			}
+		]
+	}
+}

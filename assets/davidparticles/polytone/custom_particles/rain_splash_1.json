@@ -1,0 +1,23 @@
+{
+  "initializer":{
+    "lifetime": "10",
+    "size": "0.035",
+    "alpha": "0.35",
+    "roll": "0",
+    "custom": "gaussian()"
+  },
+      "ticker": {
+        "dx": "(CUSTOM*0.05) * sin((0.1 * AGE))",
+        "dy": "0.1 * sin((0.45 * AGE)) - 0.05",
+        "dz": "(CUSTOM*0.05) * cos((0.1 * AGE))",
+        "alpha": "max(0, ALPHA - 0.0035)",
+        "size": "0.045 * sin((0.25 * AGE)) + 0.035",
+        "remove_condition": "max(0, min(((1 - ((abs(POS_X - PLAYER_X) + abs(POS_Z - PLAYER_Z)) / 20)^2)), ((1 - ((abs(POS_Y - PLAYER_Y)) / 20)^2)))) == 0"
+        },
+  "render_type": "additive_translucent",
+  "exclusion_radius": 0,
+  "has_physics": false,
+  "offset": [0, 0, 0],
+  "rotation_mode": "movement_aligned",
+  "colormap": "davidparticles:sunset_sky"
+}

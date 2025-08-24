@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/potted_cornflower"
+			},
+			{
+			"model": "minecraft:block/potted_cornflower/potted_cornflower_22.5"
+			},
+			{
+			"model": "minecraft:block/potted_cornflower/potted_cornflower_-22.5"
+			},
+			{
+			"model": "minecraft:block/potted_cornflower/potted_cornflower_45"
+			}
+		]
+	}
+}

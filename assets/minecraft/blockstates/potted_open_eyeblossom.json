@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/potted_open_eyeblossom"
+			},
+			{
+			"model": "minecraft:block/potted_open_eyeblossom/potted_open_eyeblossom_22.5"
+			},
+			{
+			"model": "minecraft:block/potted_open_eyeblossom/potted_open_eyeblossom_-22.5"
+			},
+			{
+			"model": "minecraft:block/potted_open_eyeblossom/potted_open_eyeblossom_45"
+			}
+		]
+	}
+}

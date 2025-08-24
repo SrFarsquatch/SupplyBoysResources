@@ -1,0 +1,25 @@
+{
+        "initializer":{
+          "lifetime": "80",
+          "alpha": "1",
+          "size": "0",
+          "red": "1",
+          "green": "1",
+          "blue": "1",
+          "custom": "gaussian()"
+        },
+        "ticker": {
+            "dx": "(CUSTOM*0.045) * sin((0.1 * AGE))",
+            "dy": "(CUSTOM*0.025) * cos((0.025 * AGE)) + 0.015",
+            "dz": "(CUSTOM*0.045) * cos((0.1 * AGE))",
+            "size": "0.15 * sin((0.0375 * AGE))"
+        },
+        "render_type": "opaque",
+        "liquid_affinity": "non_liquids",
+        "exclusion_radius": 1,
+        "rotation_mode": "movement_aligned",
+        "has_physics": true,
+        "kill_on_contact": false,
+        "kill_when_still": false,
+        "hitbox_size": 0.35
+}

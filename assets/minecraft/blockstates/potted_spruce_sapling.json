@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/potted_spruce_sapling"
+			},
+			{
+			"model": "minecraft:block/potted_spruce_sapling/potted_spruce_sapling_22.5"
+			},
+			{
+			"model": "minecraft:block/potted_spruce_sapling/potted_spruce_sapling_-22.5"
+			},
+			{
+			"model": "minecraft:block/potted_spruce_sapling/potted_spruce_sapling_45"
+			}
+		]
+	}
+}

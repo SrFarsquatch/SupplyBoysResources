@@ -1,0 +1,79 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [256, 256],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [-17, 18, -9, 34, 26, 20], "textureOffset": [0, 0]},
+				{"coordinates": [-5, 27, -14, 10, 10, 5], "textureOffset": [80, 101]},
+				{"coordinates": [5, 29, -13, 2, 5, 2], "textureOffset": [44, 91]},
+				{"coordinates": [-1, 26, -16, 2, 4, 2], "textureOffset": [60, 91], "sizeAdd": 0.2},
+				{"coordinates": [-5, 31, -16, 10, 2, 2], "textureOffset": [44, 87]},
+				{"coordinates": [-10, 13, -7, 20, 5, 16], "textureOffset": [68, 80], "sizeAdd": 0.25}
+			],
+			"submodels": [
+				{
+					"id": "body_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [-7, 29, -13, 2, 5, 2], "textureOffset": [44, 91]}
+					]
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -31, 2]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [17, 31, -8, 17, 17, 17], "textureOffset": [68, 46]},
+				{"coordinates": [20, 25, -5, 11, 9, 11], "textureOffset": [0, 87]},
+				{"coordinates": [17, 1, -8, 17, 24, 17], "textureOffset": [0, 46]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [-34, 31, -8, 17, 17, 17], "textureOffset": [68, 46]},
+				{"coordinates": [-31, 25, -5, 11, 9, 11], "textureOffset": [0, 87]},
+				{"coordinates": [-34, 1, -8, 17, 24, 17], "textureOffset": [0, 46]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-4, -13, 0],
+			"boxes": [
+				{"coordinates": [1, 0, -4, 9, 13, 9], "textureOffset": [44, 101]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -13, 0],
+			"boxes": [
+				{"coordinates": [-10, 0, -4, 9, 13, 9], "textureOffset": [44, 101]}
+			]
+		}
+	]
+}

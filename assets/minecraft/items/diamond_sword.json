@@ -1,0 +1,330 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"model": "item/diamond_sword",
+			"property": "component",
+			"component": "custom_name",
+	  		"cases": [
+				{
+				"when": "Buck-Chuckets",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/buck_chuckets"
+			 			}
+				},
+				{
+				"when": "Meat Cleaver",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/meat_cleaver"
+			 			}
+					},
+					{
+				"when": "Wrench",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/wrench"
+			 			}
+					},
+					{
+				"when": "Cane",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/cane"
+			 			}
+					},
+					{
+				"when": "Golf Club",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/golf_club"
+			 			}
+					},
+					{
+				"when": "Spatula",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/spatula"
+			 			}
+					},
+					{
+				"when": "Super Cute Sword",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/super_cute_sword"
+			 			}
+					},
+					{
+				"when": "Claws",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/claws"
+			 			}
+					},
+					{
+				"when": "Hidden Blade",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/hidden_blade"
+			 			}
+					},
+					{
+				"when": "Shovel",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/shovel"
+			 			}
+					},
+					{
+				"when": "Karambit",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/karambit"
+			 			}
+					},
+					{
+				"when": "Potato Peeler",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/potato_peeler"
+			 			}
+					},
+					{
+				"when": "Sickle",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/sickle"
+			 			}
+					},
+					{
+				"when": "Tempest Knife",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/tempest_knife"
+			 			}
+					},
+					{
+				"when": "Coral Blade",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/coral_blade"
+			 			}
+					},
+					{
+				"when": "Dagger",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/dagger"
+			 			}
+					},
+					{
+				"when": "Rapier",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/rapier"
+			 			}
+					},
+					{
+				"when": "Soul Knife",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/soul_knife"
+			 			}
+					},
+					{
+				"when": "Broadsword",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/broadsword"
+			 			}
+					},
+					{
+				"when": "Cutlass",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/cutlass"
+			 			}
+					},
+					{
+				"when": "Claymore",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/claymore"
+			 			}
+					},
+					{
+				"when": "Glaive",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/glaive"
+			 			}
+					},
+					{
+				"when": "Spear",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/spear"
+			 			}
+					},
+					{
+				"when": "Backstabber",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/backstabber"
+			 			}
+					},
+					{
+				"when": "Dancer's Sword",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/dancers_sword"
+			 			}
+					},
+					{
+				"when": "Katana",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/katana"
+			 			}
+					},
+					{
+				"when": "Sawblade",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/sawblade"
+			 			}
+					},
+					{
+				"when": "Battlestaff",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/battlestaff"
+			 			}
+					},
+					{
+				"when": "Command Block Sword",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/command_block_sword"
+			 			}
+					},
+					{
+				"when": "Kemetian Sword",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/kemetian_sword"
+			 			}
+					},
+					{
+				"when": "Hellenic Sword",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/hellenic_sword"
+			 			}
+					},
+					{
+				"when": "Sinitic Sword",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/sinitic_sword"
+			 			}
+					},
+					{
+				"when": "Fantasy Sword",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/fantasy_sword"
+			 			}
+					},
+					{
+				"when": "Norroen Sword",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/norroen_sword"
+			 			}
+					},
+					{
+				"when": "Halloween Sword",
+				"model": {
+					"type": "model",
+					"model": "item/diamond_sword/halloween_sword"
+			 			}
+					}
+		  		],
+			"fallback": {
+				"type": "range_dispatch",
+				"property": "damage",
+				"scale": 4,
+				"entries": [
+					{
+						"threshold": 0,
+						"model": {
+							"type": "model",
+							"model": "item/diamond_sword"
+						}
+					},
+					{
+						"threshold": 1,
+						"model": {
+							"type": "model",
+							"model": "item/diamond_sword"
+						}
+					},
+					{
+						"threshold": 2,
+						"model": {
+							"type": "model",
+							"model": "item/diamond_sword"
+						}
+					},
+					{
+						"threshold": 3,
+						"model": {
+							"type": "model",
+							"model": "item/diamond_sword"
+						}
+					}
+				]
+			}
+		},
+		"on_false": {
+			"type": "range_dispatch",
+			"property": "damage",
+			"scale": 4,
+			"entries": [
+				{
+					"threshold": 0,
+					"model": {
+						"type": "model",
+						"model": "item/diamond_sword"
+					}
+				},
+				{
+					"threshold": 1,
+					"model": {
+						"type": "model",
+						"model": "item/diamond_sword"
+					}
+				},
+				{
+					"threshold": 3,
+					"model": {
+						"type": "model",
+						"model": "item/diamond_sword"
+					}
+				},
+				{
+					"threshold": 4,
+					"model": {
+						"type": "model",
+						"model": "item/diamond_sword"
+					}
+				}
+			]
+		}
+	}
+}

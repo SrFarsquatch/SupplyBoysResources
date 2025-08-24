@@ -1,0 +1,21 @@
+{
+   "targets": ["minecraft:leaf_litter"],
+   "particle_emitters": [
+     {
+       "particle": "davidparticles:leaf_litter",
+       "chance": "max(0, 1 - (abs(POS_X - PLAYER_X) + abs(POS_Z - PLAYER_Z)) / 1)*(POS_Y == PLAYER_Y)*10*(PLAYER_SPEED_SQUARED > 0.01)",
+       "x": "0 - POS_X + PLAYER_X - gaussian()*0.25", 
+       "z": "0 - POS_Z + PLAYER_Z - gaussian()*0.25",
+       "y": "0.25",
+       "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:leaf_litter",
+       "chance": "RAIN*0.1",
+       "x": "0.5", 
+       "z": "0.5",
+       "y": "0.25",
+       "spawn_location": "lower_corner"
+     }
+     ]
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+		{ "model": "minecraft:block/red_mushroom","weight": 50},
+		{ "model": "minecraft:block/red_mushroom/red_mushroom_04","weight": 10},
+		{ "model": "minecraft:block/red_mushroom/red_mushroom_05","weight": 10},
+		{ "model": "minecraft:block/red_mushroom/red_mushroom_06","weight": 10},
+		{ "model": "minecraft:block/red_mushroom/red_mushroom_07","weight": 10},
+		{ "model": "minecraft:block/red_mushroom/red_mushroom_08","weight": 10},
+		{ "model": "minecraft:block/red_mushroom/red_mushroom_09","weight": 10},
+		{ "model": "minecraft:block/red_mushroom/red_mushroom_10","weight": 5},
+		{ "model": "minecraft:block/red_mushroom/red_mushroom_11","weight": 5}
+		]
+	}
+}

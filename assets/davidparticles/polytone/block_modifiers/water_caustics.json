@@ -1,0 +1,33 @@
+{
+   "targets": ["minecraft:water"],
+   "particle_emitters": [
+     {
+       "particle": "davidparticles:water_caustics",
+       "chance": "0.5",
+       "x": "0", 
+       "z": "0",
+       "y": "1",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:water",
+           "Properties": {
+           "falling": "false"
+           }
+         }
+     },
+     "biomes": ["minecraft:ocean",
+                "minecraft:deep_ocean",
+                "minecraft:cold_ocean",
+                "minecraft:deep_cold_ocean",
+                "minecraft:warm_ocean",
+                "minecraft:lukewarm_ocean",
+                "minecraft:deep_lukewarm_ocean",
+                "minecraft:beach",
+                "minecraft:river"
+  ],
+  "spawn_location": "lower_corner"
+     }
+    ]
+}

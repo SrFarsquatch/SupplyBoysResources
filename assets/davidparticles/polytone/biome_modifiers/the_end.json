@@ -1,0 +1,13 @@
+{
+	"targets": [
+		"minecraft:the_end"
+	],
+	"fog_radius": "1",
+ 	"fog_fade": "1",
+	"particle": {
+      "options": {
+        "type": "davidparticles:end"
+      },
+      "probability": 0.00175
+    }
+}

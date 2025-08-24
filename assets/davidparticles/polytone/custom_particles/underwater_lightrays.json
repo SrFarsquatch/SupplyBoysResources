@@ -1,0 +1,37 @@
+{
+  "initializer":{
+    "lifetime": "240",
+    "size": "6",
+    "alpha": "0",
+    "red": "1 - 0.5",
+    "green": "1 - 0.25",
+    "blue": "1"
+  },
+      "ticker": {
+        "custom": "(PLAYER_X - POS_X)^2 + (PLAYER_Z - POS_Z)^2",
+        "alpha": "max(0, tanh(((abs(POS_X - PLAYER_X) + abs(POS_Z - PLAYER_Z)) / 5)))*(((CUSTOM <= (10*10))*((10 * 10) - CUSTOM) / ((10 * 10) - (1 * 1))*(0.75 + (0.035*sin((0.35 * AGE))))*sin((0.0125 * AGE))))",
+        "dx": "cos((DAY_TIME / 12000 * pi))*0.001",
+        "dy": "sin((DAY_TIME / 12000 * pi))*0.0025",
+        "remove_condition": "max(0, min(((1 - ((abs(POS_X - PLAYER_X) + abs(POS_Z - PLAYER_Z)) / 20)^2)), ((1 - ((abs(POS_Y - PLAYER_Y)) / 20)^1)))) == 0"
+        },
+  "render_type": "additive_translucent",
+  "liquid_affinity": "non_liquids",
+  "random_sprite": true,
+  "exclusion_radius": 5,
+  "has_physics": false,
+  "kill_on_contact": false,
+  "kill_when_still": false,
+  "offset": [0, -7.5, 0],
+  "lit": true,
+  "light_level": 5,
+  "rotation_mode": "movement_aligned",
+  "particle_emitters": [
+     {
+       "particle": "davidparticles:underwater_lightray_glow",
+       "chance": "AGE == 0",
+       "x": "0", 
+       "z": "0",
+       "y": "0"
+     }
+    ]
+}

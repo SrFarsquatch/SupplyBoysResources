@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/potted_bamboo"
+			},
+			{
+			"model": "minecraft:block/potted_bamboo/potted_bamboo_22.5"
+			},
+			{
+			"model": "minecraft:block/potted_bamboo/potted_bamboo_-22.5"
+			},
+			{
+			"model": "minecraft:block/potted_bamboo/potted_bamboo_45"
+			}
+		]
+	}
+}

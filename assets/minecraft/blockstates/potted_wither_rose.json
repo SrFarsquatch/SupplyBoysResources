@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/potted_wither_rose"
+			},
+			{
+			"model": "minecraft:block/potted_wither_rose/potted_wither_rose_22.5"
+			},
+			{
+			"model": "minecraft:block/potted_wither_rose/potted_wither_rose_-22.5"
+			},
+			{
+			"model": "minecraft:block/potted_wither_rose/potted_wither_rose_45"
+			}
+		]
+	}
+}

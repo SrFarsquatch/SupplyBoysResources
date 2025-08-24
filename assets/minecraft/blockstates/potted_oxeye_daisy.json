@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/potted_oxeye_daisy"
+			},
+			{
+			"model": "minecraft:block/potted_oxeye_daisy/potted_oxeye_daisy_22.5"
+			},
+			{
+			"model": "minecraft:block/potted_oxeye_daisy/potted_oxeye_daisy_-22.5"
+			},
+			{
+			"model": "minecraft:block/potted_oxeye_daisy/potted_oxeye_daisy_45"
+			}
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "condition",
+    "property": "has_component",
+    "component": "item_name",
+    "on_true": {
+      "type": "select",
+      "model": "item/squid_spawn_egg",
+      "property": "component",
+      "component": "item_name",
+      "cases": [
+        {
+          "when": [
+            {
+              "text": "Squid Template",
+              "italic": false
+            }
+          ],
+          "model": {
+            "type": "model",
+            "model": "item/spawn_egg/squid_template"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "item/squid_spawn_egg"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/squid_spawn_egg"
+    }
+  }
+}

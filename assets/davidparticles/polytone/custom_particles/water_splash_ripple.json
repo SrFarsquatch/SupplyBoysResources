@@ -1,0 +1,30 @@
+{
+        "initializer":{
+          "lifetime": "15",
+          "alpha": "1",
+          "size": "rand()*0.1+ 0.45",
+          "dx": "0",
+          "dy": "0",
+          "dz": "0",
+          "red": "1",
+          "green": "1",
+          "blue": "1"
+        },
+        "ticker": {
+          "size": "max(0, SIZE+0.005)",
+          "dx": "0",
+          "dy": "0",
+          "dz": "0"
+        },
+        "has_physics": false,
+        "render_type": "opaque",
+        "offset": [0, 0.1, 0],
+        "exclusion_radius": 10,
+        "rotation_mode": "look_up",
+        "particle_emitters": [
+     {
+       "particle": "davidparticles:water_splash",
+       "chance": "0"
+     }
+  ]
+}

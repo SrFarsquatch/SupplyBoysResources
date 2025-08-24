@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "condition",
+    "property": "has_component",
+    "component": "item_name",
+    "on_true": {
+      "type": "select",
+      "model": "item/breeze_spawn_egg",
+      "property": "component",
+      "component": "item_name",
+      "cases": [
+        {
+          "when": [
+            {
+              "text": "Breeze Template",
+              "italic": false
+            }
+          ],
+          "model": {
+            "type": "model",
+            "model": "item/spawn_egg/breeze_template"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "item/breeze_spawn_egg"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/breeze_spawn_egg"
+    }
+  }
+}

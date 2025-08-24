@@ -1,0 +1,1169 @@
+{
+	"model": {
+		"type": "condition",
+		"on_false": {
+			"type": "select",
+			"base": "item/shield/shield",
+			"model": {
+				"type": "shield"
+			},
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": "White Power Ring",
+					"model": {
+						"type": "select",
+						"property": "display_context",
+						"cases": [
+							{
+								"when": [
+									"gui",
+									"ground",
+									"fixed"
+								],
+								"model": {
+									"type": "composite",
+									"models": [
+										{
+											"type": "model",
+											"model": "item/netherite_sword/white_power_ring"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/white_power_ring_power"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/white_power_ring_shield"
+										}
+									]
+								}
+							}
+						],
+						"fallback": {
+							"type": "model",
+							"model": "item/netherite_sword/white_power_ring"
+						}
+					}
+				},
+				{
+					"when": "Violet Power Ring",
+					"model": {
+						"type": "select",
+						"property": "display_context",
+						"cases": [
+							{
+								"when": [
+									"gui",
+									"ground",
+									"fixed"
+								],
+								"model": {
+									"type": "composite",
+									"models": [
+										{
+											"type": "model",
+											"model": "item/netherite_sword/violet_power_ring"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/violet_power_ring_power"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/violet_power_ring_shield"
+										}
+									]
+								}
+							}
+						],
+						"fallback": {
+							"type": "model",
+							"model": "item/netherite_sword/violet_power_ring"
+						}
+					}
+				},
+				{
+					"when": "Red Power Ring",
+					"model": {
+						"type": "select",
+						"property": "display_context",
+						"cases": [
+							{
+								"when": [
+									"gui",
+									"ground",
+									"fixed"
+								],
+								"model": {
+									"type": "composite",
+									"models": [
+										{
+											"type": "model",
+											"model": "item/netherite_sword/red_power_ring"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/red_power_ring_power"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/red_power_ring_shield"
+										}
+									]
+								}
+							}
+						],
+						"fallback": {
+							"type": "model",
+							"model": "item/netherite_sword/red_power_ring"
+						}
+					}
+				},
+				{
+					"when": "Blue Power Ring",
+					"model": {
+						"type": "select",
+						"property": "display_context",
+						"cases": [
+							{
+								"when": [
+									"gui",
+									"ground",
+									"fixed"
+								],
+								"model": {
+									"type": "composite",
+									"models": [
+										{
+											"type": "model",
+											"model": "item/netherite_sword/blue_power_ring"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/blue_power_ring_power"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/blue_power_ring_shield"
+										}
+									]
+								}
+							}
+						],
+						"fallback": {
+							"type": "model",
+							"model": "item/netherite_sword/blue_power_ring"
+						}
+					}
+				},
+				{
+					"when": "Indigo Power Ring",
+					"model": {
+						"type": "select",
+						"property": "display_context",
+						"cases": [
+							{
+								"when": [
+									"gui",
+									"ground",
+									"fixed"
+								],
+								"model": {
+									"type": "composite",
+									"models": [
+										{
+											"type": "model",
+											"model": "item/netherite_sword/indigo_power_ring"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/indigo_power_ring_power"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/indigo_power_ring_shield"
+										}
+									]
+								}
+							}
+						],
+						"fallback": {
+							"type": "model",
+							"model": "item/netherite_sword/indigo_power_ring"
+						}
+					}
+				},
+				{
+					"when": "Black Power Ring",
+					"model": {
+						"type": "select",
+						"property": "display_context",
+						"cases": [
+							{
+								"when": [
+									"gui",
+									"ground",
+									"fixed"
+								],
+								"model": {
+									"type": "composite",
+									"models": [
+										{
+											"type": "model",
+											"model": "item/netherite_sword/black_power_ring"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/black_power_ring_power"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/black_power_ring_shield"
+										}
+									]
+								}
+							}
+						],
+						"fallback": {
+							"type": "model",
+							"model": "item/netherite_sword/black_power_ring"
+						}
+					}
+				},
+				{
+					"when": "Yellow Power Ring",
+					"model": {
+						"type": "select",
+						"property": "display_context",
+						"cases": [
+							{
+								"when": [
+									"gui",
+									"ground",
+									"fixed"
+								],
+								"model": {
+									"type": "composite",
+									"models": [
+										{
+											"type": "model",
+											"model": "item/netherite_sword/yellow_power_ring"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/yellow_power_ring_power"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/yellow_power_ring_shield"
+										}
+									]
+								}
+							}
+						],
+						"fallback": {
+							"type": "model",
+							"model": "item/netherite_sword/yellow_power_ring"
+						}
+					}
+				},
+				{
+					"when": "Orange Power Ring",
+					"model": {
+						"type": "select",
+						"property": "display_context",
+						"cases": [
+							{
+								"when": [
+									"gui",
+									"ground",
+									"fixed"
+								],
+								"model": {
+									"type": "composite",
+									"models": [
+										{
+											"type": "model",
+											"model": "item/netherite_sword/orange_power_ring"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/orange_power_ring_power"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/orange_power_ring_shield"
+										}
+									]
+								}
+							}
+						],
+						"fallback": {
+							"type": "model",
+							"model": "item/netherite_sword/orange_power_ring"
+						}
+					}
+				},
+				{
+					"when": "Green Power Ring",
+					"model": {
+						"type": "select",
+						"property": "display_context",
+						"cases": [
+							{
+								"when": [
+									"gui",
+									"ground",
+									"fixed"
+								],
+								"model": {
+									"type": "composite",
+									"models": [
+										{
+											"type": "model",
+											"model": "item/netherite_sword/green_power_ring"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/green_power_ring_power"
+										},
+										{
+											"type": "model",
+											"model": "item/shield/green_power_ring_shield"
+										}
+									]
+								}
+							}
+						],
+						"fallback": {
+							"type": "model",
+							"model": "item/netherite_sword/green_power_ring"
+						}
+					}
+				},
+				{
+					"when": "Journey Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/journey_shield",
+						"model": "item/shield/journey_shield"
+					}
+				},
+				{
+					"when": "Star Spangled Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/star_spangled_shield",
+						"model": "item/shield/star_spangled_shield"
+					}
+				},
+				{
+					"when": "Shield Saw",
+					"model": {
+						"type": "model",
+						"base": "item/shield/shield_saw",
+						"model": "item/shield/shield_saw"
+					}
+				},
+				{
+					"when": "Order of the Stone Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/order_of_the_stone_shield",
+						"model": "item/shield/order_of_the_stone_shield"
+					}
+				},
+				{
+					"when": "Royal Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/royal_shield",
+						"model": "item/shield/royal_shield"
+					}
+				},
+				{
+					"when": "Vanguard Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/vanguard_shield",
+						"model": "item/shield/vanguard_shield"
+					}
+				},
+				{
+					"when": "Ender Dragon Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/ender_dragon_shield",
+						"model": "item/shield/ender_dragon_shield"
+					}
+				},
+				{
+					"when": "Tim's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/tim_shield",
+						"model": "item/shield/tim_shield"
+					}
+				},
+				{
+					"when": [
+						"Master's Shield",
+						"Hylian Shield"
+					],
+					"model": {
+						"type": "model",
+						"base": "item/shield/masters_shield",
+						"model": "item/shield/masters_shield"
+					}
+				},
+				{
+					"when": "Fierce Master's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/fierce_masters_shield",
+						"model": "item/shield/fierce_masters_shield"
+					}
+				},
+				{
+					"when": "Royal Master's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/royal_masters_shield",
+						"model": "item/shield/royal_masters_shield"
+					}
+				},
+				{
+					"when": "Skyward Master's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/skyward_masters_shield",
+						"model": "item/shield/skyward_masters_shield"
+					}
+				},
+				{
+					"when": "Dark Master's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/dark_masters_shield",
+						"model": "item/shield/dark_masters_shield"
+					}
+				},
+				{
+					"when": "Hero's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/hero_shield",
+						"model": "item/shield/hero_shield"
+					}
+				},
+				{
+					"when": "Romeo's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/romeo_shield",
+						"model": "item/shield/romeo_shield"
+					}
+				},
+				{
+					"when": "Xara's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/xara_shield",
+						"model": "item/shield/xara_shield"
+					}
+				},
+				{
+					"when": "Fred's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/fred_shield",
+						"model": "item/shield/fred_shield"
+					}
+				},
+				{
+					"when": "Dragonslayer Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/dragonslayer_shield",
+						"model": "item/shield/dragonslayer_shield"
+					}
+				},
+				{
+					"when": "Dragonmaster Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/dragonmaster_shield",
+						"model": "item/shield/dragonmaster_shield"
+					}
+				},
+				{
+					"when": "Command Block Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/command_block_shield",
+						"model": "item/shield/command_block_shield"
+					}
+				},
+				{
+					"when": "Robot Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/robot_shield",
+						"model": "item/shield/robot_shield"
+					}
+				},
+				{
+					"when": "Droid Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/droid_shield",
+						"model": "item/shield/droid_shield"
+					}
+				},
+				{
+					"when": "Axebreaker Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/axebreaker_shield",
+						"model": "item/shield/axebreaker_shield"
+					}
+				},
+				{
+					"when": "Swordbreaker Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/swordbreaker_shield",
+						"model": "item/shield/swordbreaker_shield"
+					}
+				},
+				{
+					"when": "Space Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/space_shield",
+						"model": "item/shield/space_shield"
+					}
+				},
+				{
+					"when": "Vortex Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/vortex_shield",
+						"model": "item/shield/vortex_shield"
+					}
+				},
+				{
+					"when": "Redstone Riot Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/redstone_riot_shield",
+						"model": "item/shield/redstone_riot_shield"
+					}
+				},
+				{
+					"when": "Infinity Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/infinity_shield",
+						"model": "item/shield/infinity_shield"
+					}
+				},
+				{
+					"when": "Ellegaard's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/ellegaard_shield",
+						"model": "item/shield/ellegaard_shield"
+					}
+				},
+				{
+					"when": "Mushroom Guy",
+					"model": {
+						"type": "model",
+						"base": "item/shield/mushroom_guy",
+						"model": "item/shield/mushroom_guy"
+					}
+				},
+				{
+					"when": "Tower Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/tower_shield",
+						"model": "item/shield/tower_shield"
+					}
+				},
+				{
+					"when": "Necromancer Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/necromancer_shield",
+						"model": "item/shield/necromancer_shield"
+					}
+				},
+				{
+					"when": "Nameless Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/nameless_shield",
+						"model": "item/shield/nameless_shield"
+					}
+				},
+				{
+					"when": "Drowned King Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/drowned_king_shield",
+						"model": "item/shield/drowned_king_shield"
+					}
+				},
+				{
+					"when": "Deku Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/deku_shield",
+						"model": "item/shield/deku_shield"
+					}
+				},
+				{
+					"when": "Redstonia Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/redstonia_shield",
+						"model": "item/shield/redstonia_shield"
+					}
+				},
+				{
+					"when": "Reuben Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/reuben_shield",
+						"model": "item/shield/reuben_shield"
+					}
+				},
+				{
+					"when": "CYKLOPPS' Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/cyklopps_shield",
+						"model": "item/shield/cyklopps_shield"
+					}
+				}
+			],
+			"fallback": {
+				"type": "special",
+				"base": "item/shield/shield",
+				"model": {
+					"type": "shield"
+				}
+			}
+		},
+		"on_true": {
+			"type": "select",
+			"base": "item/shield_blocking",
+			"model": {
+				"type": "shield"
+			},
+			"property": "component",
+			"component": "custom_name",
+			"cases": [
+				{
+					"when": "White Power Ring",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/netherite_sword/white_power_ring"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/white_power_ring_power"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/white_power_ring_shield"
+							}
+						]
+					}
+				},
+				{
+					"when": "Violet Power Ring",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/netherite_sword/violet_power_ring"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/violet_power_ring_power"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/violet_power_ring_shield"
+							}
+						]
+					}
+				},
+				{
+					"when": "Red Power Ring",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/netherite_sword/red_power_ring"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/red_power_ring_power"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/red_power_ring_shield"
+							}
+						]
+					}
+				},
+				{
+					"when": "Blue Power Ring",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/netherite_sword/blue_power_ring"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/blue_power_ring_power"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/blue_power_ring_shield"
+							}
+						]
+					}
+				},
+				{
+					"when": "Indigo Power Ring",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/netherite_sword/indigo_power_ring"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/indigo_power_ring_power"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/indigo_power_ring_shield"
+							}
+						]
+					}
+				},
+				{
+					"when": "Black Power Ring",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/netherite_sword/black_power_ring"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/black_power_ring_power"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/black_power_ring_shield"
+							}
+						]
+					}
+				},
+				{
+					"when": "Yellow Power Ring",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/netherite_sword/yellow_power_ring"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/yellow_power_ring_power"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/yellow_power_ring_shield"
+							}
+						]
+					}
+				},
+				{
+					"when": "Orange Power Ring",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/netherite_sword/orange_power_ring"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/orange_power_ring_power"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/orange_power_ring_shield"
+							}
+						]
+					}
+				},
+				{
+					"when": "Green Power Ring",
+					"model": {
+						"type": "composite",
+						"models": [
+							{
+								"type": "model",
+								"model": "item/netherite_sword/green_power_ring"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/green_power_ring_power"
+							},
+							{
+								"type": "model",
+								"model": "item/shield/green_power_ring_shield"
+							}
+						]
+					}
+				},
+				{
+					"when": "Journey Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/journey_shield_blocking",
+						"model": "item/shield/journey_shield_blocking"
+					}
+				},
+				{
+					"when": "Star Spangled Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/star_spangled_shield_blocking",
+						"model": "item/shield/star_spangled_shield_blocking"
+					}
+				},
+				{
+					"when": "Shield Saw",
+					"model": {
+						"type": "model",
+						"base": "item/shield/shield_saw_blocking",
+						"model": "item/shield/shield_saw_blocking"
+					}
+				},
+				{
+					"when": "Order of the Stone Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/order_of_the_stone_shield_blocking",
+						"model": "item/shield/order_of_the_stone_shield_blocking"
+					}
+				},
+				{
+					"when": "Royal Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/royal_shield_blocking",
+						"model": "item/shield/royal_shield_blocking"
+					}
+				},
+				{
+					"when": "Vanguard Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/vanguard_shield_blocking",
+						"model": "item/shield/vanguard_shield_blocking"
+					}
+				},
+				{
+					"when": "Ender Dragon Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/ender_dragon_shield_blocking",
+						"model": "item/shield/ender_dragon_shield_blocking"
+					}
+				},
+				{
+					"when": "Tim's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/tim_shield_blocking",
+						"model": "item/shield/tim_shield_blocking"
+					}
+				},
+				{
+					"when": [
+						"Master's Shield",
+						"Hylian Shield"
+					],
+					"model": {
+						"type": "model",
+						"base": "item/shield/masters_shield_blocking",
+						"model": "item/shield/masters_shield_blocking"
+					}
+				},
+				{
+					"when": "Fierce Master's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/fierce_masters_shield_blocking",
+						"model": "item/shield/fierce_masters_shield_blocking"
+					}
+				},
+				{
+					"when": "Royal Master's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/royal_masters_shield_blocking",
+						"model": "item/shield/royal_masters_shield_blocking"
+					}
+				},
+				{
+					"when": "Skyward Master's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/skyward_masters_shield_blocking",
+						"model": "item/shield/skyward_masters_shield_blocking"
+					}
+				},
+				{
+					"when": "Dark Master's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/dark_masters_shield_blocking",
+						"model": "item/shield/dark_masters_shield_blocking"
+					}
+				},
+				{
+					"when": "Hero's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/hero_shield_blocking",
+						"model": "item/shield/hero_shield_blocking"
+					}
+				},
+				{
+					"when": "Romeo's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/romeo_shield_blocking",
+						"model": "item/shield/romeo_shield_blocking"
+					}
+				},
+				{
+					"when": "Xara's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/xara_shield_blocking",
+						"model": "item/shield/xara_shield_blocking"
+					}
+				},
+				{
+					"when": "Fred's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/fred_shield_blocking",
+						"model": "item/shield/fred_shield_blocking"
+					}
+				},
+				{
+					"when": "Dragonslayer Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/dragonslayer_shield_blocking",
+						"model": "item/shield/dragonslayer_shield_blocking"
+					}
+				},
+				{
+					"when": "Dragonmaster Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/dragonmaster_shield_blocking",
+						"model": "item/shield/dragonmaster_shield_blocking"
+					}
+				},
+				{
+					"when": "Command Block Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/command_block_shield_blocking",
+						"model": "item/shield/command_block_shield_blocking"
+					}
+				},
+				{
+					"when": "Robot Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/robot_shield_blocking",
+						"model": "item/shield/robot_shield_blocking"
+					}
+				},
+				{
+					"when": "Droid Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/droid_shield_blocking",
+						"model": "item/shield/droid_shield_blocking"
+					}
+				},
+				{
+					"when": "Axebreaker Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/axebreaker_shield_blocking",
+						"model": "item/shield/axebreaker_shield_blocking"
+					}
+				},
+				{
+					"when": "Swordbreaker Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/swordbreaker_shield_blocking",
+						"model": "item/shield/swordbreaker_shield_blocking"
+					}
+				},
+				{
+					"when": "Space Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/space_shield_blocking",
+						"model": "item/shield/space_shield_blocking"
+					}
+				},
+				{
+					"when": "Vortex Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/vortex_shield_blocking",
+						"model": "item/shield/vortex_shield_blocking"
+					}
+				},
+				{
+					"when": "Redstone Riot Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/redstone_riot_shield_blocking",
+						"model": "item/shield/redstone_riot_shield_blocking"
+					}
+				},
+				{
+					"when": "Infinity Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/infinity_shield_blocking",
+						"model": "item/shield/infinity_shield_blocking"
+					}
+				},
+				{
+					"when": "Ellegaard's Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/ellegaard_shield_blocking",
+						"model": "item/shield/ellegaard_shield_blocking"
+					}
+				},
+				{
+					"when": "Mushroom Guy",
+					"model": {
+						"type": "model",
+						"base": "item/shield/mushroom_guy_blocking",
+						"model": "item/shield/mushroom_guy_blocking"
+					}
+				},
+				{
+					"when": "Tower Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/tower_shield_blocking",
+						"model": "item/shield/tower_shield_blocking"
+					}
+				},
+				{
+					"when": "Necromancer Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/necromancer_shield_blocking",
+						"model": "item/shield/necromancer_shield_blocking"
+					}
+				},
+				{
+					"when": "Nameless Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/nameless_shield_blocking",
+						"model": "item/shield/nameless_shield_blocking"
+					}
+				},
+				{
+					"when": "Drowned King Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/drowned_king_shield_blocking",
+						"model": "item/shield/drowned_king_shield_blocking"
+					}
+				},
+				{
+					"when": "Deku Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/deku_shield_blocking",
+						"model": "item/shield/deku_shield_blocking"
+					}
+				},
+				{
+					"when": "Redstonia Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/redstonia_shield_blocking",
+						"model": "item/shield/redstonia_shield_blocking"
+					}
+				},
+				{
+					"when": "Reuben Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/reuben_shield_blocking",
+						"model": "item/shield/reuben_shield_blocking"
+					}
+				},
+				{
+					"when": "CYKLOPPS' Shield",
+					"model": {
+						"type": "model",
+						"base": "item/shield/cyklopps_shield_blocking",
+						"model": "item/shield/cyklopps_shield_blocking"
+					}
+				}
+			],
+			"fallback": {
+				"type": "special",
+				"base": "item/shield/shield_blocking",
+				"model": {
+					"type": "shield"
+				}
+			}
+		},
+		"property": "using_item"
+	}
+}

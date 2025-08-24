@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/potted_warped_fungus"
+			},
+			{
+			"model": "minecraft:block/potted_warped_fungus/potted_warped_fungus_22.5"
+			},
+			{
+			"model": "minecraft:block/potted_warped_fungus/potted_warped_fungus_-22.5"
+			},
+			{
+			"model": "minecraft:block/potted_warped_fungus/potted_warped_fungus_45"
+			}
+		]
+	}
+}

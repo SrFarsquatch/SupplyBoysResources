@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/potted_blue_orchid"
+			},
+			{
+			"model": "minecraft:block/potted_blue_orchid/potted_blue_orchid_22.5"
+			},
+			{
+			"model": "minecraft:block/potted_blue_orchid/potted_blue_orchid_-22.5"
+			},
+			{
+			"model": "minecraft:block/potted_blue_orchid/potted_blue_orchid_45"
+			}
+		]
+	}
+}

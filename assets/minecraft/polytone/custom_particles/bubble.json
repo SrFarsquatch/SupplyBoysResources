@@ -1,0 +1,41 @@
+{
+        "initializer":{
+          "lifetime": "12.5+rand()*0.05",
+          "alpha": "1",
+          "roll": "rand()*rand()*2-rand()",
+          "size": "rand()*0.05 + 0.1",
+          "dx": "0",
+          "dy": "0",
+          "dz": "0"
+        },
+        "ticker": {
+            "dx": "0",
+            "dy": "0.01",
+            "dz": "0",
+            "alpha": "1",
+            "roll": "ROLL+0.01"
+        },
+        "has_physics": false,
+        "render_type": "opaque",
+        "offset": [0, -0.15, 0],
+        "particle_emitters": [
+     {
+       "particle": "davidparticles:water_splash",
+       "chance": "0.05",
+       "x": "0", 
+       "z": "0",
+       "y": "0.25",
+       "dx": "0",
+       "dy": "0.001 + rand()*0.001",
+       "dz": "0"
+     },
+     {
+       "particle": "davidparticles:water_splash_ripple",
+       "chance": "0.15",
+       "x": "0", 
+       "z": "0",
+       "y": "0.1"
+     }
+     ],
+     "colormap": "minecraft:water_color"
+}

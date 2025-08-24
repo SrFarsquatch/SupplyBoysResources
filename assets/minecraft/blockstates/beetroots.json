@@ -1,0 +1,59 @@
+{
+  "variants": {
+    "age=0": [
+	{
+      "model": "minecraft:block/beetroots_stage0",
+        "weight": 85
+    	},
+	{
+      "model": "minecraft:block/beetroots_stage0_2","weight": 5
+    	},
+	{
+        "model": "minecraft:block/beetroots_stage0_3",
+        "weight": 10
+      }
+],
+
+    "age=1":[
+ 	{
+      "model": "minecraft:block/beetroots_stage1",
+        "weight": 85
+    	},
+	{
+      "model": "minecraft:block/beetroots_stage1_2","weight": 5
+    	},
+	{
+        "model": "minecraft:block/beetroots_stage1_3",
+        "weight": 10
+      }
+],
+    "age=2":[ 
+	{
+      "model": "minecraft:block/beetroots_stage2",
+        "weight": 85
+    	},
+	{
+      "model": "minecraft:block/beetroots_stage2_2","weight": 5
+    	},
+	{
+        "model": "minecraft:block/beetroots_stage2_3",
+        "weight": 10
+      }
+],
+    "age=3": [
+      {
+        "model": "minecraft:block/beetroots_stage3",
+        "weight": 85
+      },
+      {
+        "model": "minecraft:block/beetroots_stage3_2",
+        "weight": 5
+      },
+	{
+        "model": "minecraft:block/beetroots_stage3_3",
+        "weight": 10
+      }
+
+    ]
+  }
+}

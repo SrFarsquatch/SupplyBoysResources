@@ -1,0 +1,13 @@
+{
+   "targets": ["minecraft:jungle_leaves"],
+   "particle_emitters": [
+     {
+       "particle": "davidparticles:jungle_leaves",
+       "chance": "0.015 + RAIN*0.025 + (RAIN > 0.75)*0.1",
+       "x": "0", 
+       "z": "0",
+       "y": "-0.5",
+       "spawn_location": "lower_corner"
+     }
+     ]
+}

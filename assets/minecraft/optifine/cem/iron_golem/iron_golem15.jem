@@ -1,0 +1,160 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [-14, 18, -11, 28, 20, 20], "textureOffset": [0, 0]},
+				{"coordinates": [-11, 38, -7, 13, 8, 13], "textureOffset": [0, 65]},
+				{"coordinates": [-7.5, 13, -6, 15, 5, 10], "textureOffset": [52, 84], "sizeAdd": 0.5}
+			],
+			"submodels": [
+				{
+					"id": "body_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [7, 34.5, 0, 6, 15, 6], "textureOffset": [102, 107]}
+					]
+				},
+				{
+					"id": "bush2",
+					"invertAxis": "xy",
+					"translate": [10, 37, -5],
+					"rotate": [-12.5, 0, -17.5],
+					"boxes": [
+						{"coordinates": [-0.5, 0, -4.5, 0, 10, 10], "textureOffset": [76, 108]},
+						{"coordinates": [-5, 0, 0, 10, 10, 0], "textureOffset": [76, 118]}
+					]
+				},
+				{
+					"id": "bush",
+					"invertAxis": "xy",
+					"translate": [-6, 46, -1],
+					"boxes": [
+						{"coordinates": [-0.5, 0, -4.5, 0, 10, 10], "textureOffset": [76, 108]},
+						{"coordinates": [-5, 0, 0, 10, 10, 0], "textureOffset": [76, 118]}
+					]
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -31, 2],
+			"boxes": [
+				{"coordinates": [-7, 24, -16.5, 14, 12, 6], "textureOffset": [0, 86]},
+				{"coordinates": [-2, 22, -19.5, 4, 7, 3], "textureOffset": [96, 23]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [20, 34.5, -7, 6, 10, 6], "textureOffset": [104, 112]}
+			],
+			"submodels": [
+				{
+					"id": "left_arm2",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 31, 0],
+					"boxes": [
+						{"coordinates": [14, -29.5, -6, 10, 33, 11], "textureOffset": [62, 40]}
+					],
+					"submodels": [
+						{
+							"id": "bone2",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [12, 0, 0],
+							"rotate": [0, 0, 25],
+							"boxes": [
+								{"coordinates": [0, -5.5, -8, 16, 10, 15], "textureOffset": [0, 40]}
+							]
+						}
+					]
+				},
+				{
+					"id": "bush3",
+					"invertAxis": "xy",
+					"translate": [25, 39, 2],
+					"rotate": [0, 0, -25],
+					"boxes": [
+						{"coordinates": [-0.5, 0, -4.5, 0, 10, 10], "textureOffset": [76, 108]},
+						{"coordinates": [-5, 0, 0, 10, 10, 0], "textureOffset": [76, 118]}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [0, -31, 0],
+			"boxes": [
+				{"coordinates": [-24, 1.5, -6, 10, 33, 11], "textureOffset": [62, 40]},
+				{"coordinates": [-24, 34.5, -5, 8, 18, 8], "textureOffset": [96, 102]}
+			],
+			"submodels": [
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [-12, 31, 0],
+					"rotate": [0, 0, -25],
+					"boxes": [
+						{"coordinates": [-16, -5.5, -8, 16, 10, 15], "textureOffset": [0, 40]}
+					]
+				},
+				{
+					"id": "bush4",
+					"invertAxis": "xy",
+					"translate": [-20, 52, -1],
+					"rotate": [0, 0, 10],
+					"boxes": [
+						{"coordinates": [-0.5, 0, -4.5, 0, 10, 10], "textureOffset": [76, 108]},
+						{"coordinates": [-5, 0, 0, 10, 10, 0], "textureOffset": [76, 118]}
+					]
+				},
+				{
+					"id": "bush5",
+					"invertAxis": "xy",
+					"translate": [-21, 39, -7],
+					"rotate": [-20, 0, 0],
+					"boxes": [
+						{"coordinates": [-0.5, 0, -4.5, 0, 10, 10], "textureOffset": [76, 108]},
+						{"coordinates": [-5, 0, 0, 10, 10, 0], "textureOffset": [76, 118]}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-4, -13, 0],
+			"boxes": [
+				{"coordinates": [4.5, 0, -4, 7, 16, 7], "textureOffset": [96, 0]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [5, -13, 0],
+			"boxes": [
+				{"coordinates": [-11.5, 0, -4, 7, 16, 7], "textureOffset": [96, 0]}
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+        "initializer":{
+          "lifetime": "10",
+          "alpha": "0",
+          "size": "0.25"
+        },
+        "ticker": {
+          "dx": "0",
+          "dz": "0",
+          "dy": "0"
+        },
+        "liquid_affinity": "non_liquids",
+        "exclusion_radius": 2,
+        "render_type": "additive_translucent",
+        "rotation_mode": "look_up",
+        "has_physics": false,
+         "particle_emitters": [
+    {
+      "particle": "davidparticles:dust_check2_1",
+      "chance": "(AGE == 6)*((PLAYER_Y - 1.5) <= POS_Y)", 
+      "x": "-0.5 - POS_X + PLAYER_X",
+      "z": "-0.5 - POS_Z + PLAYER_Z",
+      "y": "0.0"
+    }
+  ]
+}

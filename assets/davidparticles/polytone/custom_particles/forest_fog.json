@@ -1,0 +1,23 @@
+{
+  "initializer":{
+    "lifetime": "120",
+    "size": "4",
+    "alpha": "0"
+  },
+      "ticker": {
+        "alpha": "max(0, tanh(((abs(POS_X - PLAYER_X) + abs(POS_Z - PLAYER_Z)) / 5))) * ((( (PLAYER_X - POS_X)^2 + (PLAYER_Z - POS_Z)^2 ) <= (12.5 * 12.5)) * ((12.5 * 12.5) - ((PLAYER_X - POS_X)^2 + (PLAYER_Z - POS_Z)^2))) / (12.5 * 12.5 - 1*1) * ((0.5 + RAIN*0.5) * sin(0.025 * AGE))",
+        "roll": "max(0, ROLL+0.001)",
+        "dx": "(rand()/75 + (DX * 0.5))*0.1",
+        "dy": "0.001",
+        "dz": "(rand()/75 + (DZ * 0.5))*0.1",
+        "remove_condition": "sqrt(DISTANCE_SQUARED) > 10"
+        },
+  "render_type": "additive_translucent",
+  "liquid_affinity": "non_liquids",
+  "exclusion_radius": 3,
+  "has_physics": false,
+  "lit": true,
+  "light_level": 5,
+  "offset": [0, -1, 0],
+   "colormap": "davidparticles:colormap_fog"
+}

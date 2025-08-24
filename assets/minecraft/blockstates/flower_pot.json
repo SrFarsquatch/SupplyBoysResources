@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+			"model": "minecraft:block/flower_pots/empty_flower_pot"
+			},
+			{
+			"model": "minecraft:block/flower_pots/empty_flower_pot/empty_flower_pot_22.5"
+			},
+			{
+			"model": "minecraft:block/flower_pots/empty_flower_pot/empty_flower_pot_-22.5"
+			},
+			{
+			"model": "minecraft:block/flower_pots/empty_flower_pot/empty_flower_pot_45"
+			}
+		]
+	}
+}

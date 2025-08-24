@@ -1,0 +1,22 @@
+{
+        "initializer":{
+          "lifetime": "60+rand()*10",
+          "alpha": "1",
+          "size": "0.5",
+          "roll": "rand()/gaussian()*10"
+        },
+        "ticker": {
+            "dx": "0.25 + RAIN*0.8",
+            "alpha": "max(0, ALPHA-0.0025)",
+            "dy": "max(0, (-gaussian()/rand()*0.01 + (rand()*noise(-10, 10)*gaussian()*0.05)) *1.01) *0.5",
+            "dz": "(-((rand()/75 + (DY * 0.5))*0.75)-0.05)*0.25",
+            "size": "max(0, SIZE-0.0025)",
+            "roll": "max(0, (ROLL + 0.075)*1.001) + RAIN*0.25"
+        },
+        "liquid_affinity": "non_liquids",
+        "render_type": "translucent",
+        "has_physics": true,
+        "kill_on_contact": false,
+        "kill_when_still": false,
+        "offset": [0, -0.1, 0]
+}
